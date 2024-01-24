@@ -6,12 +6,12 @@
 public class Triangle {
 	public static void main(String[] args) {
 		String t;
-		double a = Integer.parseInt(args[0]);
-		double b = Integer.parseInt(args[1]);
-		double c = Integer.parseInt(args[2]);
-		double max = Math.max(a,b);
-		double max2 = Math.max(max , c);
-		double sum = a + b + c - max2;
+		int a = Integer.parseInt(args[0]);
+		int b = Integer.parseInt(args[1]);
+		int c = Integer.parseInt(args[2]);
+		int max = Math.max(a,b);
+		int max2 = Math.max(max , c);
+		int sum = a + b + c - max2;
 		if ( sum > max2) {
 			t = "true";
 		}
